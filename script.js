@@ -115,7 +115,7 @@ function createWord() {
 function createUFO() {
     const ufoDiv = document.createElement('div');
     ufoDiv.classList.add('ufo');
-    ufoDiv.style.backgroundImage = "url('/assets/ufo.png')";
+    ufoDiv.style.backgroundImage = "url('https://aar-nope.github.io/AstroWords/assets/ufo.png')";
     ufoDiv.style.backgroundSize = 'cover';
     ufoDiv.style.width = '64px'; 
     ufoDiv.style.height = '64px';
@@ -139,7 +139,7 @@ function createUFO() {
 function createComet() {
     const cometDiv = document.createElement('div');
     cometDiv.classList.add('comet');
-    cometDiv.style.backgroundImage = "url('/assets/comet.png')";
+    cometDiv.style.backgroundImage = "url('https://aar-nope.github.io/AstroWords/assets/comet.png')";
     cometDiv.style.backgroundSize = 'cover';
     cometDiv.style.width = '64px'; 
     cometDiv.style.height = '64px';
