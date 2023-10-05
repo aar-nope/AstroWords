@@ -1,0 +1,70 @@
+body{
+    background-image: url('/assets/5509862.jpg');
+    background-repeat: no-repeat;
+    background-size: 135%;
+    background-position: center;
+    overflow: hidden;    
+    animation: moveBackground 30s infinite alternate;
+}
+
+#gameArea{
+    width: 100vw;
+    height:100vh;  
+    cursor: url('/assets/rocket.png') 8 8, auto !important;    
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0% center;
+    }
+    50% {
+        background-position: 20% center; /* Adjust this value for more or less movement */
+    }
+    100% {
+        background-position: 0% center;
+    }
+}
+
+#timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#startGame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.word {
+    position: absolute;
+    top: 0; /* Start from the top */
+    font-size: 20px; 
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#story {
+    position: absolute;
+    bottom: 10px;    
+    width: 90vw;     
+    left: 50%;  /* Move the left edge to the center of the container */
+    transform: translateX(-50%);  /* Move it back by half of its width */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);  
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}
+
