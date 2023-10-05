@@ -1,5 +1,5 @@
 body{
-    background-image: url('/assets/5509862.jpg');
+    background-image: url('assets/5509862.jpg');
     background-repeat: no-repeat;
     background-size: 135%;
     background-position: center;
@@ -10,7 +10,7 @@ body{
 #gameArea{
     width: 100vw;
     height:100vh;  
-    cursor: url('/assets/rocket.png') 8 8, auto !important;    
+    cursor: url('assets/rocket.png') 8 8, auto !important;    
 }
 
 @keyframes moveBackground {
